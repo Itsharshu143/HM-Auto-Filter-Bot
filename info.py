@@ -23,8 +23,7 @@ if len(API_ID) == 0:
     exit()
 else:
     API_ID = int(API_ID)
-API_HASH = environ.get('API_HASH', '5971f827128727176690c7f302ea46e5
-')
+API_HASH = environ.get('API_HASH', '5971f827128727176690c7f302ea46e5')
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
